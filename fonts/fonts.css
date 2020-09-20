@@ -1,0 +1,286 @@
+@font-face {
+    font-family: 'Globotipo Texto';
+    src: url('GlobotipoTexto-Black.eot');
+    src: url('GlobotipoTexto-Black.eot?#iefix') format('embedded-opentype'),
+        url('GlobotipoTexto-Black.woff2') format('woff2'),
+        url('GlobotipoTexto-Black.woff') format('woff'),
+        url('GlobotipoTexto-Black.ttf') format('truetype'),
+        url('GlobotipoTexto-Black.svg#GlobotipoTexto-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Globotipo Texto';
+    src: url('GlobotipoTexto-Regular.eot');
+    src: url('GlobotipoTexto-Regular.eot?#iefix') format('embedded-opentype'),
+        url('GlobotipoTexto-Regular.woff2') format('woff2'),
+        url('GlobotipoTexto-Regular.woff') format('woff'),
+        url('GlobotipoTexto-Regular.ttf') format('truetype'),
+        url('GlobotipoTexto-Regular.svg#GlobotipoTexto-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ITC Avant Garde Gothic Std Bold Condensed';
+    src: url('ITCAvantGardeStd-BoldCn.eot');
+    src: url('ITCAvantGardeStd-BoldCn.eot?#iefix') format('embedded-opentype'),
+        url('ITCAvantGardeStd-BoldCn.woff2') format('woff2'),
+        url('ITCAvantGardeStd-BoldCn.woff') format('woff'),
+        url('ITCAvantGardeStd-BoldCn.ttf') format('truetype'),
+        url('ITCAvantGardeStd-BoldCn.svg#ITCAvantGardeStd-BoldCn') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ITC Avant Garde Gothic Std Demi';
+    src: url('ITCAvantGardeStd-Demi.eot');
+    src: url('ITCAvantGardeStd-Demi.eot?#iefix') format('embedded-opentype'),
+        url('ITCAvantGardeStd-Demi.woff2') format('woff2'),
+        url('ITCAvantGardeStd-Demi.woff') format('woff'),
+        url('ITCAvantGardeStd-Demi.ttf') format('truetype'),
+        url('ITCAvantGardeStd-Demi.svg#ITCAvantGardeStd-Demi') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ITC Avant Garde Gothic Std';
+    src: url('ITCAvantGardeStd-XLtCnObl.eot');
+    src: url('ITCAvantGardeStd-XLtCnObl.eot?#iefix') format('embedded-opentype'),
+        url('ITCAvantGardeStd-XLtCnObl.woff2') format('woff2'),
+        url('ITCAvantGardeStd-XLtCnObl.woff') format('woff'),
+        url('ITCAvantGardeStd-XLtCnObl.ttf') format('truetype'),
+        url('ITCAvantGardeStd-XLtCnObl.svg#ITCAvantGardeStd-XLtCnObl') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ITC Avant Garde Gothic Std';
+    src: url('ITCAvantGardeStd-BkObl.eot');
+    src: url('ITCAvantGardeStd-BkObl.eot?#iefix') format('embedded-opentype'),
+        url('ITCAvantGardeStd-BkObl.woff2') format('woff2'),
+        url('ITCAvantGardeStd-BkObl.woff') format('woff'),
+        url('ITCAvantGardeStd-BkObl.ttf') format('truetype'),
+        url('ITCAvantGardeStd-BkObl.svg#ITCAvantGardeStd-BkObl') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ITC Avant Garde Gothic Std Book';
+    src: url('ITCAvantGardeStd-Bk.eot');
+    src: url('ITCAvantGardeStd-Bk.eot?#iefix') format('embedded-opentype'),
+        url('ITCAvantGardeStd-Bk.woff2') format('woff2'),
+        url('ITCAvantGardeStd-Bk.woff') format('woff'),
+        url('ITCAvantGardeStd-Bk.ttf') format('truetype'),
+        url('ITCAvantGardeStd-Bk.svg#ITCAvantGardeStd-Bk') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ITC Avant Garde Gothic Std';
+    src: url('ITCAvantGardeStd-BoldCnObl.eot');
+    src: url('ITCAvantGardeStd-BoldCnObl.eot?#iefix') format('embedded-opentype'),
+        url('ITCAvantGardeStd-BoldCnObl.woff2') format('woff2'),
+        url('ITCAvantGardeStd-BoldCnObl.woff') format('woff'),
+        url('ITCAvantGardeStd-BoldCnObl.ttf') format('truetype'),
+        url('ITCAvantGardeStd-BoldCnObl.svg#ITCAvantGardeStd-BoldCnObl') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ITC Avant Garde Gothic Std';
+    src: url('ITCAvantGardeStd-BoldObl.eot');
+    src: url('ITCAvantGardeStd-BoldObl.eot?#iefix') format('embedded-opentype'),
+        url('ITCAvantGardeStd-BoldObl.woff2') format('woff2'),
+        url('ITCAvantGardeStd-BoldObl.woff') format('woff'),
+        url('ITCAvantGardeStd-BoldObl.ttf') format('truetype'),
+        url('ITCAvantGardeStd-BoldObl.svg#ITCAvantGardeStd-BoldObl') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ITC Avant Garde Gothic Std Book Condensed';
+    src: url('ITCAvantGardeStd-BkCn.eot');
+    src: url('ITCAvantGardeStd-BkCn.eot?#iefix') format('embedded-opentype'),
+        url('ITCAvantGardeStd-BkCn.woff2') format('woff2'),
+        url('ITCAvantGardeStd-BkCn.woff') format('woff'),
+        url('ITCAvantGardeStd-BkCn.ttf') format('truetype'),
+        url('ITCAvantGardeStd-BkCn.svg#ITCAvantGardeStd-BkCn') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ITC Avant Garde Gothic Std';
+    src: url('ITCAvantGardeStd-MdCnObl.eot');
+    src: url('ITCAvantGardeStd-MdCnObl.eot?#iefix') format('embedded-opentype'),
+        url('ITCAvantGardeStd-MdCnObl.woff2') format('woff2'),
+        url('ITCAvantGardeStd-MdCnObl.woff') format('woff'),
+        url('ITCAvantGardeStd-MdCnObl.ttf') format('truetype'),
+        url('ITCAvantGardeStd-MdCnObl.svg#ITCAvantGardeStd-MdCnObl') format('svg');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ITC Avant Garde Gothic Std Extra Light Condensed';
+    src: url('ITCAvantGardeStd-XLtCn.eot');
+    src: url('ITCAvantGardeStd-XLtCn.eot?#iefix') format('embedded-opentype'),
+        url('ITCAvantGardeStd-XLtCn.woff2') format('woff2'),
+        url('ITCAvantGardeStd-XLtCn.woff') format('woff'),
+        url('ITCAvantGardeStd-XLtCn.ttf') format('truetype'),
+        url('ITCAvantGardeStd-XLtCn.svg#ITCAvantGardeStd-XLtCn') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ITC Avant Garde Gothic Std';
+    src: url('ITCAvantGardeStd-XLtObl.eot');
+    src: url('ITCAvantGardeStd-XLtObl.eot?#iefix') format('embedded-opentype'),
+        url('ITCAvantGardeStd-XLtObl.woff2') format('woff2'),
+        url('ITCAvantGardeStd-XLtObl.woff') format('woff'),
+        url('ITCAvantGardeStd-XLtObl.ttf') format('truetype'),
+        url('ITCAvantGardeStd-XLtObl.svg#ITCAvantGardeStd-XLtObl') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ITC Avant Garde Gothic Std Extra';
+    src: url('ITCAvantGardeStd-XLt.eot');
+    src: url('ITCAvantGardeStd-XLt.eot?#iefix') format('embedded-opentype'),
+        url('ITCAvantGardeStd-XLt.woff2') format('woff2'),
+        url('ITCAvantGardeStd-XLt.woff') format('woff'),
+        url('ITCAvantGardeStd-XLt.ttf') format('truetype'),
+        url('ITCAvantGardeStd-XLt.svg#ITCAvantGardeStd-XLt') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ITC Avant Garde Gothic Std';
+    src: url('ITCAvantGardeStd-Md.eot');
+    src: url('ITCAvantGardeStd-Md.eot?#iefix') format('embedded-opentype'),
+        url('ITCAvantGardeStd-Md.woff2') format('woff2'),
+        url('ITCAvantGardeStd-Md.woff') format('woff'),
+        url('ITCAvantGardeStd-Md.ttf') format('truetype'),
+        url('ITCAvantGardeStd-Md.svg#ITCAvantGardeStd-Md') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ITC Avant Garde Gothic Std Demi Condensed';
+    src: url('ITCAvantGardeStd-DemiCn.eot');
+    src: url('ITCAvantGardeStd-DemiCn.eot?#iefix') format('embedded-opentype'),
+        url('ITCAvantGardeStd-DemiCn.woff2') format('woff2'),
+        url('ITCAvantGardeStd-DemiCn.woff') format('woff'),
+        url('ITCAvantGardeStd-DemiCn.ttf') format('truetype'),
+        url('ITCAvantGardeStd-DemiCn.svg#ITCAvantGardeStd-DemiCn') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ITC Avant Garde Gothic Std';
+    src: url('ITCAvantGardeStd-Bold.eot');
+    src: url('ITCAvantGardeStd-Bold.eot?#iefix') format('embedded-opentype'),
+        url('ITCAvantGardeStd-Bold.woff2') format('woff2'),
+        url('ITCAvantGardeStd-Bold.woff') format('woff'),
+        url('ITCAvantGardeStd-Bold.ttf') format('truetype'),
+        url('ITCAvantGardeStd-Bold.svg#ITCAvantGardeStd-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ITC Avant Garde Gothic Std Medium Condensed';
+    src: url('ITCAvantGardeStd-MdCn.eot');
+    src: url('ITCAvantGardeStd-MdCn.eot?#iefix') format('embedded-opentype'),
+        url('ITCAvantGardeStd-MdCn.woff2') format('woff2'),
+        url('ITCAvantGardeStd-MdCn.woff') format('woff'),
+        url('ITCAvantGardeStd-MdCn.ttf') format('truetype'),
+        url('ITCAvantGardeStd-MdCn.svg#ITCAvantGardeStd-MdCn') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ITC Avant Garde Gothic Std';
+    src: url('ITCAvantGardeStd-BkCnObl.eot');
+    src: url('ITCAvantGardeStd-BkCnObl.eot?#iefix') format('embedded-opentype'),
+        url('ITCAvantGardeStd-BkCnObl.woff2') format('woff2'),
+        url('ITCAvantGardeStd-BkCnObl.woff') format('woff'),
+        url('ITCAvantGardeStd-BkCnObl.ttf') format('truetype'),
+        url('ITCAvantGardeStd-BkCnObl.svg#ITCAvantGardeStd-BkCnObl') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ITC Avant Garde Gothic Std';
+    src: url('ITCAvantGardeStd-MdObl.eot');
+    src: url('ITCAvantGardeStd-MdObl.eot?#iefix') format('embedded-opentype'),
+        url('ITCAvantGardeStd-MdObl.woff2') format('woff2'),
+        url('ITCAvantGardeStd-MdObl.woff') format('woff'),
+        url('ITCAvantGardeStd-MdObl.ttf') format('truetype'),
+        url('ITCAvantGardeStd-MdObl.svg#ITCAvantGardeStd-MdObl') format('svg');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ITC Avant Garde Gothic Std';
+    src: url('ITCAvantGardeStd-DemiCnObl.eot');
+    src: url('ITCAvantGardeStd-DemiCnObl.eot?#iefix') format('embedded-opentype'),
+        url('ITCAvantGardeStd-DemiCnObl.woff2') format('woff2'),
+        url('ITCAvantGardeStd-DemiCnObl.woff') format('woff'),
+        url('ITCAvantGardeStd-DemiCnObl.ttf') format('truetype'),
+        url('ITCAvantGardeStd-DemiCnObl.svg#ITCAvantGardeStd-DemiCnObl') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ITC Avant Garde Gothic Std';
+    src: url('ITCAvantGardeStd-DemiObl.eot');
+    src: url('ITCAvantGardeStd-DemiObl.eot?#iefix') format('embedded-opentype'),
+        url('ITCAvantGardeStd-DemiObl.woff2') format('woff2'),
+        url('ITCAvantGardeStd-DemiObl.woff') format('woff'),
+        url('ITCAvantGardeStd-DemiObl.ttf') format('truetype'),
+        url('ITCAvantGardeStd-DemiObl.svg#ITCAvantGardeStd-DemiObl') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+

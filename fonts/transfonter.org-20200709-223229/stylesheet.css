@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Globotipo Texto';
+    src: url('GlobotipoTexto-Black.eot');
+    src: url('GlobotipoTexto-Black.eot?#iefix') format('embedded-opentype'),
+        url('GlobotipoTexto-Black.woff2') format('woff2'),
+        url('GlobotipoTexto-Black.woff') format('woff'),
+        url('GlobotipoTexto-Black.ttf') format('truetype'),
+        url('GlobotipoTexto-Black.svg#GlobotipoTexto-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Globotipo Texto';
+    src: url('GlobotipoTexto-Regular.eot');
+    src: url('GlobotipoTexto-Regular.eot?#iefix') format('embedded-opentype'),
+        url('GlobotipoTexto-Regular.woff2') format('woff2'),
+        url('GlobotipoTexto-Regular.woff') format('woff'),
+        url('GlobotipoTexto-Regular.ttf') format('truetype'),
+        url('GlobotipoTexto-Regular.svg#GlobotipoTexto-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
