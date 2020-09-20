@@ -1,0 +1,426 @@
+:root {
+	--h1Size: 2.5em;
+	--h2Size: 72px;
+	--h3Size: 55px;
+	--h4Size: 40px;
+	--h5Size: 23px;
+	--h6Size: 22px;
+	--pSize: 25px;
+	--spanSize: 15px;
+	--inputTextSize: 13px;
+	--aTextSize: 16px;
+
+	--thin: 100;
+    --extra-light: 200;
+    --light: 300;
+    --regular: 400;
+    --medium: 500;
+    --semi-bold: 600;
+    --bold: 700;
+    --extra-bold: 800;
+
+
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --darkPurle: #800080;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #737171;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --dark1: #3b3b3a;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+
+html {
+	scroll-behavior: smooth;
+	font-family:
+	system-ui,
+	/* macOS 10.11-10.12 */ -apple-system,
+	/* Windows 6+ */ Segoe UI,
+	/* Android 4+ */ Roboto,
+	/* Ubuntu 10.10+ */ Ubuntu,
+	/* Gnome 3+ */ Cantarell,
+	/* KDE Plasma 5+ */ Noto Sans,
+	/* fallback */ sans-serif,
+	/* macOS emoji */ "Apple Color Emoji",
+	/* Windows emoji */ "Segoe UI Emoji",
+	/* Windows emoji */ "Segoe UI Symbol",
+	/* Linux emoji */ "Noto Color Emoji";
+}
+
+
+body, html {
+	margin: 0;
+	padding: 0;
+}
+
+
+div, span, object, input, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, address, cite, code, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, figure, figcaption, footer, header, nav, section, audio, video {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	box-sizing: border-box;
+	outline: none;
+	border: none;
+}
+
+picture {
+	width: 100%;
+	height: 100%;
+	/* display: flex; */
+}
+
+#main {
+	width: 100%;
+	max-width: 100vw;
+	overflow: hidden;
+	display: flex;
+	flex-flow: column;
+	margin: 0 auto;
+}
+
+.block {
+	display: block;
+}
+
+.flex {
+	display: flex;
+}
+
+.grid {
+	display: grid;
+}
+
+
+amp-img.contain img {
+object-fit: contain;
+}
+
+amp-img.cover img {
+object-fit: cover;
+}
+
+
+nav ol, nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button, input, select, textarea {
+  background-color: transparent;
+  border: 1px solid WindowFrame;
+  color: inherit;
+  font: inherit;
+  letter-spacing: inherit;
+  padding: 0.25em 0.375em;
+}
+
+a {
+	text-decoration: none;
+	display: block;
+	position: relative;
+	cursor: pointer;
+	pointer-events: all;
+    font-family: 'ITC Avant Garde Gothic Std Book';
+    font-weight: 500;
+    font-style: normal;
+    font-size: var(--aTextSize);
+	transition: 0.3s ease-in-out all;
+    color: #737171;
+}
+
+
+
+.shadow-6 {
+	box-shadow:
+		0 1px 1px rgba(0,0,0,0.11),
+		0 2px 2px rgba(0,0,0,0.11),
+		0 4px 4px rgba(0,0,0,0.11),
+		0 8px 8px rgba(0,0,0,0.11),
+		0 16px 16px rgba(0,0,0,0.11),
+		0 32px 32px rgba(0,0,0,0.11);
+}
+
+h1 {
+	font-size: var(--h1Size);
+	text-transform: uppercase;
+	display: block;
+    font-family: 'ITC Avant Garde Gothic Std Book';
+    font-weight: 500;
+    font-style: normal;
+	color: var(--f2);
+	text-decoration-skip-ink: auto;
+	font-feature-settings: "liga" 1;
+	font-feature-settings: "liga" on;
+}
+
+h2 {
+	font-size: var(--h2Size);
+	display: block;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+	color: var(--f2);
+	text-decoration-skip-ink: auto;
+	font-feature-settings: "liga" 1;
+	font-feature-settings: "liga" on;
+}
+
+h3 {
+	font-size: var(--h3Size);
+	display: block;
+    font-family: 'ITC Avant Garde Gothic Std Book';
+    font-weight: normal;
+    font-style: normal;
+	color: var(--f2);
+	text-decoration-skip-ink: auto;
+	font-feature-settings: "liga" 1;
+	font-feature-settings: "liga" on;
+}
+
+h4 {
+	font-size: var(--h4Size);
+	display: block;
+    font-family: 'ITC Avant Garde Gothic Std Book';
+    font-weight: normal;
+    font-style: normal;
+	color: var(--f2);
+	font-weight: var(--bold);
+	text-decoration-skip-ink: auto;
+	font-feature-settings: "liga" 1;
+	font-feature-settings: "liga" on;
+}
+
+h5 {
+	font-size: var(--h5Size);
+	display: block;
+    font-family: 'ITC Avant Garde Gothic Std Book';
+    font-weight: normal;
+    font-style: normal;
+	color: var(--f2);
+	text-decoration-skip-ink: auto;
+	font-feature-settings: "liga" 1;
+	font-feature-settings: "liga" on;
+}
+
+h6 {
+	font-size: var(--h6Size);
+	display: block;
+    font-family: 'ITC Avant Garde Gothic Std Book';
+    font-weight: normal;
+    font-style: normal;
+	color: var(--f2);
+	font-weight: var(--semi-bold);
+	text-decoration-skip-ink: auto;
+	font-feature-settings: "liga" 1;
+	font-feature-settings: "liga" on;
+}
+
+input {
+	font-size: var(--inputTextSize);
+	border: none;
+	outline: none;
+	display: block;
+	color: var(--f2);
+    font-family: 'ITC Avant Garde Gothic Std Book';
+    font-weight: 500;
+    font-style: normal;
+	text-decoration-skip-ink: auto;
+	font-feature-settings: "liga" 1;
+	font-feature-settings: "liga" on;
+}
+
+p {
+	font-size: var(--pSize);
+	display: block;
+	color: var(--f2);
+    font-family: 'ITC Avant Garde Gothic Std Book';
+    font-weight: 500;
+    font-style: normal;
+	text-decoration-skip-ink: auto;
+	font-feature-settings: "liga" 1;
+	font-feature-settings: "liga" on;
+	line-height: 1.39;
+}
+
+span {
+	font-size: var(--spanSize);
+	display: block;
+	color: var(--f2);
+    font-family: 'ITC Avant Garde Gothic Std Book';
+    font-weight: 500;
+    font-style: normal;
+	text-decoration-skip-ink: auto;
+	font-feature-settings: "liga" 1;
+	font-feature-settings: "liga" on;
+}
+
+svg {
+	display: block;
+	pointer-events: none;
+	/* transition: 0.5s ease all; */
+	position: relative;
+}
+
+
+/* unvisited link */
+a:link {
+  /* color: var(--red); */
+}
+/* visited link */
+a:visited {
+  /* color: var(--red); */
+}
+/* selected link */
+a:active {
+  /* color: var(--red); */
+}
+
+::placeholder {
+	color: var(--primaryColor);
+    font-family: 'ITC Avant Garde Gothic Std Book';
+    font-weight: normal;
+    font-style: normal;
+	font-size: var(--inputTextSize);
+}
+
+:-ms-input-placeholder {
+	color: var(--primaryColor);
+    font-family: 'ITC Avant Garde Gothic Std Book';
+    font-weight: normal;
+    font-style: normal;
+	font-size: var(--inputTextSize);
+}
+
+::-ms-input-placeholder {
+	color: var(--primaryColor);
+    font-family: 'ITC Avant Garde Gothic Std Book';
+    font-weight: normal;
+    font-style: normal;
+	font-size: var(--inputTextSize);
+}
+
+
+code, kbd, pre, samp {
+  font-family:
+    /* macOS 10.10+ */ Menlo,
+    /* Windows 6+ */ Consolas,
+    /* Android 4+ */ Roboto Mono,
+    /* Ubuntu 10.10+ */ Ubuntu Monospace,
+    /* KDE Plasma 5+ */ Noto Mono,
+    /* KDE Plasma 4+ */ Oxygen Mono,
+    /* Linux/OpenOffice fallback */ Liberation Mono,
+    /* fallback */ monospace;
+}
+
+
+
+::selection {
+  background: var(--blue);
+  color: #fff;
+}
+
+::-moz-selection {
+  background: var(--blue);
+  color: #fff;
+}
+
+select {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background: no-repeat right center / 1em;
+  border-radius: 0;
+  padding-right: 1em;
+}
+
+select:not([multiple]):not([size]) {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='4'%3E%3Cpath d='M4 0h6L7 4'/%3E%3C/svg%3E");
+}
+
+::-ms-expand {
+  display: none;
+}
+
+
+a, area, button, input, label, select, summary, textarea, [tabindex] {
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+}
+
+
+
+
+
+@keyframes ioio {
+	50% {
+		transform: rotate(2turn);
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* sandbox */
+
+
+.ioio {
+	animation-name: ioio;
+	animation-duration: 2s;
+	animation-fill-mode: both;
+	animation-iteration-count: infinite;
+}
+
+
+.spacer {
+	height: 200vh;
+}
